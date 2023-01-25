@@ -1,0 +1,23 @@
+package com.TheMasterMindGroup.BasicPrograming;
+
+import java.util.Scanner;
+
+public class ComputeAreaFromScanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		double radius;
+		double area;
+		
+		System.out.println("Provide value for the radius");
+		radius = input.nextDouble();
+		
+		area = radius * radius * 3.14159;
+		System.out.println("The area of the circe of radius " + radius + " is " + area);
+			
+
+
+	}
+
+}
